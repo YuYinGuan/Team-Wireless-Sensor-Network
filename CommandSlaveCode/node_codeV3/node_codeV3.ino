@@ -12,8 +12,8 @@
 #include "cc2500_REG_V2.h"
 #include "cc2500_VAL_V2.h"
 #include "cc2500init_V2.h"
-//#include "read_write.h"
-#include "read_writeV2.h"
+#include "read_write.h"
+//#include "read_writeV2.h"
 #include "motorcontrol.h"
 
 //Declare Pins for UART
@@ -21,7 +21,7 @@ SoftwareSerial mySerial(8, 7);   // RX, TX
 
 
 //The LED PIN
-int ledPin = 4;
+int ledPin = 9;
 
 //Timer info
 const unsigned long TIMEOUT_PP = 30; //??? check this timeout number stub
